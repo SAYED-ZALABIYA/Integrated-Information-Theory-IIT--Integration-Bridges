@@ -45,3 +45,33 @@ data/
 
 assets/
  └── figures/                  # Generated visualizations
+```
+
+Phase 1 — Statistical Integration (Proxy)
+
+File: src/integration_proxy_tc.py
+
+A lightweight Tiny MLP trained on simple datasets:
+
+XOR
+
+Two Moons
+
+Spiral
+
+What is tracked
+
+Total Correlation (TC) per layer
+
+TC Sum across layers
+
+Accuracy vs training epochs
+
+Effects of connectivity density and residual links
+
+Purpose
+
+TC acts as a statistical proxy for how integrated learned representations become during training.
+
+⚠️ Any Φ value inside this phase (if present) is a toy demonstration only,
+not causal IIT Φ.
