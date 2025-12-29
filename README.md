@@ -147,3 +147,9 @@ python src/iit_causal_phi_tpm.py --preset and_or_4 --state 1010
 - Causal structure
 
 ### It is a step toward quantifying integration in artificial systems, not defining consciousness.
+
+## Author
+
+### Elsayed Nassar
+
+## لا تنسونا من صالح دعائكم 
