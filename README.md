@@ -111,3 +111,39 @@ Provides a mechanistic ground truth for causal integration, fully aligned with I
 ```text
 pip install -r requirements.txt
 ```
+
+### Running the Experiments
+
+### Phase 1 — Neural Integration
+
+```text
+python src/integration_proxy_tc.py --dataset xor --epochs 40 --visualize
+```
+### Phase 2 — Causal Φ
+
+```text
+python src/iit_causal_phi_tpm.py --preset xor_nand_5
+python src/iit_causal_phi_tpm.py --preset and_or_4 --state 1010
+```
+
+## Research Direction (Next Steps)
+
+- Binarization of neural activations
+
+- Reduced-state causal abstraction of trained networks
+
+- Testing whether TC trends predict Φ under controlled reductions
+
+- Multi-run statistical validation
+
+## Key Takeaway
+
+### This project demonstrates a methodological bridge between:
+
+- Representation learning
+
+- Information theory
+
+- Causal structure
+
+### It is a step toward quantifying integration in artificial systems, not defining consciousness.
