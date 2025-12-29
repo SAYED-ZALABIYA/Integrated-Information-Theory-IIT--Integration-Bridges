@@ -47,27 +47,27 @@ assets/
  └── figures/                  # Generated visualizations
 ```
 
-Phase 1 — Statistical Integration (Proxy)
+### Phase 1 — Statistical Integration (Proxy)
 
 File: src/integration_proxy_tc.py
 
 A lightweight Tiny MLP trained on simple datasets:
 
-XOR
+- XOR
 
-Two Moons
+- Two Moons
 
-Spiral
+- Spiral
 
 What is tracked
 
-Total Correlation (TC) per layer
+- Total Correlation (TC) per layer
 
-TC Sum across layers
+- TC Sum across layers
 
-Accuracy vs training epochs
+- Accuracy vs training epochs
 
-Effects of connectivity density and residual links
+- Effects of connectivity density and residual links
 
 Purpose
 
