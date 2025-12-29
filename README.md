@@ -75,3 +75,33 @@ TC acts as a statistical proxy for how integrated learned representations become
 
 ⚠️ Any Φ value inside this phase (if present) is a toy demonstration only,
 not causal IIT Φ.
+
+
+### Phase 2 — Causal Integration (IIT Ground Truth)
+
+File: src/iit_causal_phi_tpm.py
+
+This phase isolates causality from learning.
+
+### What is implemented
+
+- Explicit binary systems (3–5 nodes)
+
+- Deterministic logical architectures (AND, OR, XOR, NAND chains)
+
+- Construction of full Transition Probability Matrices (TPMs)
+
+- Exact computation of Φ using PyPhi
+
+### Purpose
+
+Provides a mechanistic ground truth for causal integration, fully aligned with IIT.
+
+### Example Results (Preliminary)
+
+- In initial runs, TC tends to decrease and compress as accuracy increases.
+
+- This suggests a possible relationship between learning dynamics and integration structure.
+
+   Results are exploratory and single-run at this stage.
+   Statistical significance is not claimed yet.
