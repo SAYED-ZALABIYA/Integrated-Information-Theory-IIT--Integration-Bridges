@@ -103,5 +103,11 @@ Provides a mechanistic ground truth for causal integration, fully aligned with I
 
 - This suggests a possible relationship between learning dynamics and integration structure.
 
-   Results are exploratory and single-run at this stage.
-   Statistical significance is not claimed yet.
+   - Results are exploratory and single-run at this stage.
+   - Statistical significance is not claimed yet.
+ 
+## Installation
+
+```text
+pip install -r requirements.txt
+```
