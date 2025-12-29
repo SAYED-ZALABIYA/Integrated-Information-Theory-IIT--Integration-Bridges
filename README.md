@@ -47,11 +47,11 @@ assets/
  └── figures/                  # Generated visualizations
 ```
 
-### Phase 1 — Statistical Integration (Proxy)
+## Phase 1 — Statistical Integration (Proxy)
 
 File: src/integration_proxy_tc.py
 
-A lightweight Tiny MLP trained on simple datasets:
+### A lightweight Tiny MLP trained on simple datasets:
 
 - XOR
 
@@ -59,7 +59,7 @@ A lightweight Tiny MLP trained on simple datasets:
 
 - Spiral
 
-What is tracked
+### What is tracked
 
 - Total Correlation (TC) per layer
 
@@ -69,7 +69,7 @@ What is tracked
 
 - Effects of connectivity density and residual links
 
-Purpose
+### Purpose
 
 TC acts as a statistical proxy for how integrated learned representations become during training.
 
