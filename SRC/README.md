@@ -1,6 +1,6 @@
-Phase 1 — Statistical Integration (Proxy)
+## Phase 1 — Statistical Integration (Proxy)
 
-File: src/integration_proxy_tc.py
+# File: src/integration_proxy_tc.py
 
 A lightweight Tiny MLP trained on simple datasets:
 
@@ -27,7 +27,7 @@ TC acts as a statistical proxy for how integrated learned representations become
 ⚠️ Any Φ value inside this phase (if present) is a toy demonstration only,
 not causal IIT Φ.
 
-Phase 2 — Causal Integration (IIT Ground Truth)
+# Phase 2 — Causal Integration (IIT Ground Truth)
 
 File: src/iit_causal_phi_tpm.py
 
